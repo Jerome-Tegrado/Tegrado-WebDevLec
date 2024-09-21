@@ -61,14 +61,34 @@
             padding: 20px;
             text-align: justify;
             width: 500;
-            margin-left: 100;
+            margin-left: 10;
             border-style: dotted;
         }
 
         .firstyrtitle{
             font-size: 25px;
+            font-style: italic;
         }
 
+        .secondyrtitle{
+            font-size: 25px;
+            font-style: italic;
+        }
+        
+        table {
+            width: 40%;
+            border-collapse: collapse; 
+            margin: 25px 0 0 10px;
+            font-size: 15px;
+            background-color: antiquewhite;
+            color: black;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 15px;
+            border: 2px solid black; 
+        }
 
     </style>
 </head>
@@ -84,12 +104,57 @@
     </h2>
     <hr>
 
+    <h3>Side Note:</h3>
+    <p class="finaldesc">
+        This is What I have Learned during my first and second year here in TUP. It includes projects that I have accomplished in the given programming languages. 
+        This then helped me gain practical experience when it comes to coding. I then thank the professors that teached me in prior of how programming works and its respective languages.
+    </p>
     
-  
+    <h3>Table of Learning:</h3>
+    <table>
+        <thead>
+          <tr>
+            <th>Applications Learned</th>
+            <th>Year Learned</th>
+            <th>Subject</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><em>C</em></td>
+            <td>2022</td>
+            <td>Introduction to Programming 1</td>
+          </tr>
+          <tr>
+            <td><em>C++</em></td>
+            <td>2022</td>
+            <td>Introduction to Programming 2, Data Structures and Algorithms</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>2023</td>
+            <td>Object Oriented Programming</td>
+          </tr>
+          <tr>
+            <td><em>MySQL</em></td>
+            <td>2023</td>
+            <td>Object Oriented Programming</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td><em>Figma</em></td>
+            <td>2024</td>
+            <td>Application Development</td>
+          </tr>
+        </tfoot>
+      </table>
+
+    <br>
+    <br>
 
     <p class="firstyr"> 
         <ul>
-            <li class>
                 <span class="firstyrtitle">First Year Projects</span>
                 <ul>
                     <br>
@@ -155,21 +220,14 @@
                         <button>View Full Image</button>
                         </div>
                     </a>
-
                 </ul>
-            </li>
-
-        </ul>
     </p>
+
     <hr>
 
-    <p class="secondyr"> 
-        <ul>
-            <li class>
-                Second Year Projects
-                
+    <p class="secondyr">  
+        <span class="firstyrtitle">Second Year Projects</span>
                 <ul>
-                    <br>
                     <li>Learned Data Structures and Algorithms</li>
                     <img src="./images/dsa1.PNG" alt="C Programming Language">
                     <a href="./images/dsa1.PNG" target="_blank">
@@ -257,17 +315,9 @@
                     </a>
                     <br>
                     <br>
-
                 </ul>
-            </li>
-        </ul>
     </p>
-
-    <p class="finaldesc">
-        This is What I have Learned during my first and second year here in TUP. It includes projects that I have accomplished in the given programming languages. 
-        This then helped me gain practical experience when it comes to coding. I then thank the professors that teached me in prior of how programming works and its respective languages.
-    </p>
- 
     
+
 </body>
 </html>
