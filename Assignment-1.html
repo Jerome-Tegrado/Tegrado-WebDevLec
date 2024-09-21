@@ -55,62 +55,92 @@
         }
 
         .finaldesc{
-            background-color: antiquewhite;
-            color: black;
+            background-color: rgb(177, 93, 93);
+            color: antiquewhite;
             border-radius: 5px;
             padding: 20px;
             text-align: justify;
-            width: 500;
-            margin-left: 10;
+            width: 740;
+            margin-left: 40;
             border-style: dotted;
+        }
+
+        .finaldesc:hover{
+            background-color: rgb(185, 70, 70);
+            color: antiquewhite;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         .firstyrtitle{
             font-size: 25px;
             font-style: italic;
+            background-color: #eee9dd;
+            color: black;
+            border-radius: 5px;
+            padding: 10px;
         }
 
         .secondyrtitle{
             font-size: 25px;
             font-style: italic;
+            background-color: #eee9dd;
+            color: black;
+            border-radius: 5px;
+            padding: 10px;
         }
         
         table {
-            width: 40%;
+            width: 50%;
             border-collapse: collapse; 
-            margin: 25px 0 0 10px;
+            margin-left: 40;
             font-size: 15px;
-            background-color: antiquewhite;
-            color: black;
+            background-color: rgb(177, 93, 93);
+            color: antiquewhite;
         }
 
-        th, td {
+        table:hover{
+            background-color: rgb(185, 70, 70);
+            color: antiquewhite;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        th, td, tr {
             text-align: left;
             padding: 15px;
-            border: 2px solid black; 
+            border: 2px solid white; 
+            border-style:inset;
         }
+        
+
+        .tabletitle{
+            margin-left: 38;
+        }
+
+        
 
     </style>
 </head>
 
 <body>
 
-    <h1> 
+    <h1 style="margin-top: 50px; margin-left: 900"> 
         Jerome Brent A. Tegrado | BSIS-3A
     </h1>
 
-    <h2>
-        My Projects Timeline in my 1st and 2nd Year in TUP-Manila
+    <h2 style="margin-left: 710">
+        My Projects Timeline in my 1st and 2nd Year at TUP-Manila
     </h2>
     <hr>
 
-    <h3>Side Note:</h3>
+    <br>
+
+    <h3><em style="margin-left: 40;">Side Note:</em></h3>
     <p class="finaldesc">
-        This is What I have Learned during my first and second year here in TUP. It includes projects that I have accomplished in the given programming languages. 
-        This then helped me gain practical experience when it comes to coding. I then thank the professors that teached me in prior of how programming works and its respective languages.
+        During my first and second year at TUP, I have gained a solid foundation in programming. Through various projects, I had the opportunity to apply different programming languages, which helped me develop practical coding skills. These projects were essential in reinforcing my understanding of both basic and advanced concepts. I am grateful to my professors for their guidance and support in teaching me the key principles of programming. Their lessons not only introduced me to various coding languages but also equipped me with the problem-solving skills necessary in this field.
     </p>
+    <br>
     
-    <h3>Table of Learning:</h3>
+    <h3><em style="margin-left: 40;">Table of Learning:</em></h3>
     <table>
         <thead>
           <tr>
@@ -121,29 +151,29 @@
         </thead>
         <tbody>
           <tr>
-            <td><em>C</em></td>
+            <td><img src="./images/letter-c.png" alt="C" style="width:100px; height:100px; border:none;"> <em style=margin-left:55;>C</em></td>
             <td>2022</td>
             <td>Introduction to Programming 1</td>
           </tr>
           <tr>
-            <td><em>C++</em></td>
+            <td><img src="./images/c++ logo.png" alt="C++" style="width:100px; height:100px; border:none;"> <em style=margin-left:50;>C++</em></td>
             <td>2022</td>
             <td>Introduction to Programming 2, Data Structures and Algorithms</td>
           </tr>
           <tr>
-            <td>Java</td>
+            <td><img src="./images/java.png" alt="Java" style="width:100px; height:100px; border:none;"> <em class="tabletitle">Java</em></td>
             <td>2023</td>
             <td>Object Oriented Programming</td>
           </tr>
           <tr>
-            <td><em>MySQL</em></td>
+            <td><img src="./images/mysql.png" alt="MySQL" style="width:100px; height:100px; border:none;"> <em class="tabletitle">MySQL</em></td>
             <td>2023</td>
             <td>Object Oriented Programming</td>
           </tr>
         </tbody>
         <tfoot>
           <tr>
-            <td><em>Figma</em></td>
+            <td><img src="./images/figma.png" alt="Figma" style="width:100px; height:100px; border:none;"> <em class="tabletitle">Figma</em></td>
             <td>2024</td>
             <td>Application Development</td>
           </tr>
@@ -220,10 +250,14 @@
                         <button>View Full Image</button>
                         </div>
                     </a>
+
+                    <br>
+                    <br>
+                    <br>
                 </ul>
     </p>
 
-    <hr>
+
 
     <p class="secondyr">  
         <span class="firstyrtitle">Second Year Projects</span>
@@ -318,6 +352,10 @@
                 </ul>
     </p>
     
+
+    <footer>
+        <p>&copy; 2024 Jerome Brent A. Tegrado | All Rights Reserved</p>
+    </footer>
 
 </body>
 </html>
