@@ -41,6 +41,6 @@ a:hover{
     color: rgb(34, 32, 32);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(140, 208, 224);
+    text-decoration-color: rgb(39, 189, 223);
     transition: text-decoration-color 2s ease;
 }
