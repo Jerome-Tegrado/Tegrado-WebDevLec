@@ -44,3 +44,11 @@ a:hover{
     text-decoration-color: rgb(39, 189, 223);
     transition: text-decoration-color 2s ease;
 }
+
+.logo {
+    font-size: 2rem;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
