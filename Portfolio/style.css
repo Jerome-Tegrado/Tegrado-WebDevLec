@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@600&family=JetBrains+Mono:ital,wght@0,500;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "JetBrains Mono", system-ui;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: #3b9bf500;
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* Desktop Nav*/
+
+nav, 
+.nav-links{
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: rgb(34, 32, 32);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(140, 208, 224);
+    transition: text-decoration-color 2s ease;
+}
