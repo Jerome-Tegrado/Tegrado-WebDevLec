@@ -1,0 +1,23 @@
+@media screen and (max-width: 1400px) {
+    #deskop-nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #deskop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+}

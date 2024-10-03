@@ -52,3 +52,14 @@ a:hover{
 .logo:hover{
     cursor: pointer;
 }
+
+ /* Hamburger Menu */
+
+ #hamburger-nav {
+    display: flex;
+ }
+
+ .hamburger-menu {
+    position: relative;
+    display: inline-block;
+ }
